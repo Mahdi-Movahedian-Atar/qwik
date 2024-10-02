@@ -1,5 +1,13 @@
 # @builder.io/qwik
 
+## 1.9.1
+
+### Patch Changes
+
+- in dev mode, qrl segments now start with their parent filename so it's easy to see where they came from. Furthermore, in production builds these filenames are also used so that origins in q-manifest.json are easy to understand. (by [@wmertens](https://github.com/wmertens) in [#6881](https://github.com/QwikDev/qwik/pull/6881))
+
+- fix(optimizer): ignore unknown deps in graph causing crashes during build (by [@wmertens](https://github.com/wmertens) in [#6888](https://github.com/QwikDev/qwik/pull/6888))
+
 ## 1.9.0
 
 ### Patch Changes
